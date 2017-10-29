@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.termux"
+    package="com.vrmux"
     android:installLocation="internalOnly"
-    android:sharedUserId="com.termux"
+    android:sharedUserId="com.vrmux"
     android:sharedUserLabel="@string/shared_user_label" >
 
     <uses-feature android:glEsVersion="0x00020000" android:required="true" />
@@ -71,7 +71,7 @@
         <activity
             android:name=".filepicker.TermuxFileReceiverActivity"
             android:label="@string/application_name"
-            android:taskAffinity="com.termux.filereceiver"
+            android:taskAffinity="com.vrmux.filereceiver"
             android:excludeFromRecents="true"
             android:noHistory="true">
             <!-- Accept multiple file types when sending. -->
@@ -100,7 +100,7 @@
 
         <provider
             android:name=".filepicker.TermuxDocumentsProvider"
-            android:authorities="com.termux.documents"
+            android:authorities="com.vrmux.documents"
             android:grantUriPermissions="true"
             android:exported="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -110,7 +110,7 @@
         </provider>
 
         <service
-            android:name="com.termux.app.TermuxService"
+            android:name="com.vrmux.app.TermuxService"
             android:exported="false" />
 
     </application>

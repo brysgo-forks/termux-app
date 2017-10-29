@@ -6,8 +6,8 @@ Termux app
 
 Termux is an Android terminal app and Linux environment.
 
-* [Termux on Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
-* [Termux on F-Droid](https://f-droid.org/repository/browse/?fdid=com.termux)
+* [Termux on Google Play Store](https://play.google.com/store/apps/details?id=com.vrmux)
+* [Termux on F-Droid](https://f-droid.org/repository/browse/?fdid=com.vrmux)
 * [termux.com](http://termux.com)
 * [Termux Help](http://termux.com/help/)
 * [Termux app on GitHub](https://github.com/termux/termux-app)
