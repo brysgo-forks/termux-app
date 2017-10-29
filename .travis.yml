@@ -42,5 +42,4 @@ deploy:
     secure: PozGgbkgA7NZmCr3QpObzK+ReDogS5l7J799/iXfU93eDOgOKUGVlD/of/efspbCfXJ3zhiOPD+ShsYw7Yn+DNH5X4X6flQ5cZMGZ4LDxlNgAgS9HXMhG5MRzb67gaJORrEcNtm31dIiBUpRv3O3pH6dwnAf+M3d0mndZUq0cajs0kt9YjAmQDoT2R3+PkL5g7AJBmkNiWIOP8OQjHhFyYzZamAHp3dRfqPpW+HBdiTSDadWDMr7FkpAZMkJ4cDgXbYH29BiEhBDZyH/uRxCsjLf2+YOMtwaRQj0TBA7U/zcmgaEwAdcWqORbkOj5Qr2wngwTgPhuROUEzXYKRqNpdfJqlFBiBUbt52386kWp1U+QdQ5Y0LXDnhaHpgRAjPtnP/IIn8b1d5O4hDOSj5jdepwTGkskgK5Kv22KOPj8daLU9ppC5mZcuOI7uScbozi5bUwVlpKcDw5IYPRv7ADIz9gcdxTNiSOo6tgKIruKP0t08A+KvhgVJGx/UNoM6de+0sRas1Ehctx4ICfsUK+b7Xh7KcmlvZRPKwKD7NdtzCpTsS4yVCoXPEIhRGY43a9z8DZynxyh/UcnEyIa6sSK+jnAV3OoV7W7TdMiTaMJuI0oE6AwphyMI6Yn1O+f0Lkoq7dkf8dibZaDz4Q0lI86MCCPHjBIcbn2NV3EYT3LYE=
   file: '"app/build/outputs/apk/*release*.apk"'
   on:
-    tags: true
     repo: brysgo/termux-app
