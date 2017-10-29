@@ -16,6 +16,16 @@ before_install:
 - export ANDROID_NDK_HOME=$HOME/android-ndk
 script:
 - "./gradlew assemble"
+- "echo './'"
+- "ls"
+- "echo './app'"
+- "ls ./app"
+- "echo './app/build'"
+- "ls ./app/build"
+- "echo './app/build/outputs'"
+- "ls ./app/build/outputs"
+- "echo './app/build/outputs/apk'"
+- "ls ./app/build/outputs/apk"
 - "./gradlew testDebugUnitTest"
 addons:
   coverity_scan:
