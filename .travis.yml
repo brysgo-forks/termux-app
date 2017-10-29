@@ -15,8 +15,9 @@ before_install:
   - git clone https://github.com/urho3d/android-ndk.git $HOME/android-ndk
   - export ANDROID_NDK_HOME=$HOME/android-ndk
 script:
-  - "./gradlew assemble"
   - "./gradlew testDebugUnitTest"
+  - "./gradlew clean"
+  - "./gradlew assemble"
 addons:
   coverity_scan:
     project:
