@@ -8,7 +8,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.RUN"
-            android:targetPackage="com.termux"
-            android:targetClass="com.termux.app.TermuxActivity"/>
+            android:targetPackage="com.vrmux"
+            android:targetClass="com.vrmux.app.TermuxActivity"/>
     </shortcut>
 </shortcuts>
