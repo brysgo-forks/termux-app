@@ -3,13 +3,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/sdk-base-1.100.0" />
+            <option value="$PROJECT_DIR$/sdk-common-1.100.0" />
+            <option value="$PROJECT_DIR$/sdk-controller-1.100.0" />
             <option value="$PROJECT_DIR$/terminal-emulator" />
             <option value="$PROJECT_DIR$/terminal-view" />
           </set>
